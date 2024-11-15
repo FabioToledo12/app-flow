@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "ES6",        // VERSÃO MAIS ANTIGA E COMPATIVEL
+    "module": "commonjs",   // CONVERTER PARA O JEITO MAIS PADRAO
+    "outDir": "./dist",     // ONDE SERÃO COLOCADOS OS ARQUIVOS CONVERTIDOS
+    "strict": true,         // SER OBRIGADO A DECLARAR
+    "esModuleInterop": true // CONSEGUIR TRABALHAR COM OS 2 TIPOS DE MODULOS (MODULE)
+  }
+}

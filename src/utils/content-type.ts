@@ -1,0 +1,57 @@
+export enum ContentType {
+    JSON = "application/json",
+    HTML = "text/html",
+    TEXT = "text/plain",
+    JS = "text/javascript",
+    CSS = "text/css",
+    PNG = "image/png",
+    JPEG = "image/jpeg",
+    GIF = "image/gif",
+    SVG = "image/svg+xml",
+    WEBP = "image/webp",
+    ICO = "image/x-icon",
+
+    MP3 = "audio/mpeg",
+    WAV = "audio/wav",
+    OGG = "audio/ogg",
+
+    MP4 = "video/mp4",
+    WEBM = "video/webm",
+    OGV = "video/ogg",
+
+    PDF = "application/pdf",
+    XML = "application/xml",
+    ZIP = "application/zip",
+    TAR = "application/x-tar",
+    GZ = "application/gzip",
+    BZ2 = "application/x-bzip2",
+    RAR = "application/vnd.rar",
+    SEVEN_ZIP = "application/x-7z-compressed",
+
+    TXT = "text/plain",
+    CSV = "text/csv",
+    TSV = "text/tab-separated-values",
+    MD = "text/markdown",
+    YAML = "text/yaml",
+    JSONLD = "application/ld+json",
+
+    FORM_URLENCODED = "application/x-www-form-urlencoded",
+    MULTIPART_FORM_DATA = "multipart/form-data",
+    
+    OCTET_STREAM = "application/octet-stream",
+    JAVASCRIPT_MODULE = "application/javascript",
+    TYPESCRIPT = "application/typescript",
+    WASM = "application/wasm",
+    EPUB = "application/epub+zip",
+
+    RTF = "application/rtf",
+    OPENDOCUMENT_TEXT = "application/vnd.oasis.opendocument.text",
+    OPENDOCUMENT_SPREADSHEET = "application/vnd.oasis.opendocument.spreadsheet",
+    OPENDOCUMENT_PRESENTATION = "application/vnd.oasis.opendocument.presentation",
+    VND_MS_EXCEL = "application/vnd.ms-excel",
+    VND_OPENXML_SPREADSHEET = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    VND_MS_POWERPOINT = "application/vnd.ms-powerpoint",
+    VND_OPENXML_PRESENTATION = "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+    VND_MS_WORD = "application/msword",
+    VND_OPENXML_WORD = "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+}
